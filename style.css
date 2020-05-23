@@ -1,0 +1,480 @@
+@charset "UTF-8";
+/* responsive téléphone portable*/
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+.container {
+  display: block;
+  text-align: center;
+  font-family: roboto;
+  font-size: 1em;
+  color: #414141;
+  padding: 100px;
+}
+
+header {
+  background-color: #579c87;
+  text-align: center;
+  padding: 2em;
+}
+header img {
+  margin: auto;
+  width: 200px;
+}
+header .notemusic {
+  margin: auto;
+  padding: 40px;
+}
+
+/* navigations menus*/
+.menu_mini, nav .nav__link__1--4, nav .nav__link__1--3, nav .nav__link__1--2, nav .nav__link__1 {
+  box-shadow: 0 0 7px #dddddd;
+  width: 280px;
+  height: 400px;
+  display: flex;
+}
+
+.menu, nav .menu_vidaloka__1, nav .menu_kalam__4, nav .menu_kalam__3, nav .menu_kalam__1, nav .bloc-menu__4, nav .bloc-menu__3, nav .bloc-menu__2, nav .bloc-menu__1, nav .note {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  margin: 150px 0 -130px 0;
+}
+
+nav ul {
+  padding: 0;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  margin: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  max-width: 800px;
+  justify-content: center;
+}
+nav li {
+  margin: 55px;
+  width: 200px;
+  height: 282px;
+  text-align: center;
+}
+nav .nav__link__1 {
+  background-color: #fcdfdb;
+  font-family: "Devonshire", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+nav .nav__link__1--2 {
+  background-color: #fff5fe;
+  font-family: "Kurale";
+}
+nav .nav__link__1--3 {
+  background-color: #eef0f0;
+  font-family: "Dancing Script";
+}
+nav .nav__link__1--4 {
+  background-color: #fdfffd;
+  font-family: "Kaushan script";
+}
+nav .note {
+  text-align: center;
+  width: 80px;
+  margin-left: 35%;
+  margin-top: 30%;
+}
+nav .bloc-menu__1 {
+  color: #3c1218;
+}
+nav .bloc-menu__2 {
+  background: linear-gradient(to bottom right, #c67412, #6e4ccc);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+nav .bloc-menu__3 {
+  background: linear-gradient(to bottom right, #0431df, #0887fb);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+nav .bloc-menu__4 {
+  background: linear-gradient(to bottom right, #42973c, #bfff7e);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+nav .menu_kalam {
+  font-family: "Kalam", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+nav .menu_kalam__1 {
+  color: #3c1218;
+}
+nav .menu_kalam__3 {
+  background: linear-gradient(to bottom right, #0431df, #0887fb);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+nav .menu_kalam__4 {
+  background: linear-gradient(to bottom right, #42973c, #bfff7e);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+nav .menu_vidaloka {
+  font-family: "Vidaloka";
+}
+nav .menu_vidaloka__1 {
+  color: #c67412;
+}
+
+/* pages menus secondaires*/
+.menu_bigtypo, .menu-4, .menu-3, .menu-2, .menu-1 {
+  justify-content: center;
+  text-align: center;
+}
+
+.smartmenu, .menu-4, .menu-3, .menu-2, .menu-1 {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-left: -80px;
+  margin-top: 40px;
+  padding: 2em;
+  padding-left: 5em;
+  padding-right: 5em;
+  box-shadow: 0 0 7px #dddddd;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.prix {
+  font-weight: bold;
+  margin-left: auto;
+  margin-top: auto;
+  font-size: 1.6em;
+}
+
+.description {
+  font-size: 1.5em;
+}
+
+.menu-1 {
+  background-color: #fcdfdb;
+  list-style-type: none;
+  font-family: "Kalam", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+.menu-1 .typo01 {
+  color: #3c1218;
+}
+
+.menu-2 {
+  background-color: #fff5fe;
+  font-family: "Kurale";
+}
+.menu-2 .typo02 {
+  background: linear-gradient(to bottom right, #c67412, #6e4ccc);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.menu-3 {
+  background-color: #eef0f0;
+  font-family: "Dancing Script";
+}
+.menu-3 .typo03 {
+  background: linear-gradient(to bottom right, #0431df, #0887fb);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.menu-4 {
+  background-color: #fdfffd;
+  font-family: "Kaushan script";
+}
+.menu-4 .typo04 {
+  background: linear-gradient(to bottom right, #42973c, #bfff7e);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.notemusic {
+  width: 50px;
+}
+
+.devonshire {
+  font-family: "Devonshire", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+/* Format menu*/
+.menu-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 40px 0 10px 0;
+}
+
+.title {
+  margin: 40px 0 10px 0;
+  font-size: 1.6em;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  -webkit-transition: width 0.5s ease;
+  -o-transition: width 0.5s ease;
+  transition: width 0.5s ease;
+}
+
+.title:hover::after {
+  width: 100%;
+  background: #000000;
+}
+
+img {
+  width: 24%;
+  margin: 40px 0 10px 0;
+}
+
+/* Mentions*/
+.mentions {
+  max-width: 518px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+/* pied page*/
+.prochainement {
+  background: #579c87;
+  color: #fdcb46;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: "roboto";
+  font-size: 1.5em;
+  width: 250px;
+}
+
+.prochainement::after {
+  content: " .";
+  -webkit-animation: pointe 2s infinite;
+  animation: pointe 2s infinite;
+}
+
+@-webkit-keyframes pointe {
+  0%, 20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: #fdcb46;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 #fdcb46, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0.25em 0 0 #fdcb46, 0.5em 0 0 #fdcb46;
+  }
+}
+@keyframes pointe {
+  0%, 20% {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  40% {
+    color: #fdcb46;
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 #fdcb46, 0.5em 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 0.25em 0 0 #fdcb46, 0.5em 0 0 #fdcb46;
+  }
+}
+/* pied de page*/
+footer {
+  background-color: #579c87;
+  min-width: 268px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.foot {
+  font-family: "roboto";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  height: 50px;
+  /* animations*/
+}
+.foot .text {
+  color: #fdcb46;
+  margin-top: 15px;
+}
+.foot .text:hover {
+  -webkit-animation: vibre 0.82s cubic-bezier(0.65, 0.23, 0.41, 0.79);
+  animation: vibre 0.82s cubic-bezier(0.65, 0.23, 0.41, 0.79);
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+}
+@-webkit-keyframes vibre {
+  0% {
+    -webkit-transform: translate(-1px, 0);
+    transform: translate(-1px, 0);
+  }
+  80% {
+    -webkit-transform: translate(2px, 0);
+    transform: translate(2px, 0);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: translate(-4px, 0);
+    transform: translate(-4px, 0);
+  }
+  40%, 60% {
+    -webkit-transform: translate(4px, 0);
+    transform: translate(4px, 0);
+  }
+}
+@keyframes vibre {
+  0% {
+    -webkit-transform: translate(-1px, 0);
+    transform: translate(-1px, 0);
+  }
+  80% {
+    -webkit-transform: translate(2px, 0);
+    transform: translate(2px, 0);
+  }
+  30%, 50%, 70% {
+    -webkit-transform: translate(-4px, 0);
+    transform: translate(-4px, 0);
+  }
+  40%, 60% {
+    -webkit-transform: translate(4px, 0);
+    transform: translate(4px, 0);
+  }
+}
+.foot .mentions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.anima {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: opacity 250ms 50ms, -webkit-transform 300ms;
+  transition: opacity 250ms 50ms, -webkit-transform 300ms;
+  -o-transition: transform 300ms, opacity 250ms 50ms;
+  transition: transform 300ms, opacity 250ms 50ms;
+  transition: transform 300ms, opacity 250ms 50ms, -webkit-transform 300ms;
+}
+
+.anima:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.5;
+}
+
+h3 {
+  font-family: "Kalam", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+h3::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  -webkit-transition: width 0.5s ease;
+  -o-transition: width 0.5s ease;
+  transition: width 0.5s ease;
+}
+
+/* responsive ordi portable*/
+@media all and (min-width: 700px) {
+  /* pages menus*/
+  div {
+    text-align: center;
+    /* pied de page*/
+  }
+  div .menu-1 .menu-2 .menu-3 .menu-4 {
+    box-shadow: 0 0 7px #dddddd;
+    margin: auto;
+  }
+  div .type__plats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  div .description {
+    font-size: 1.5em;
+  }
+  div .bart {
+    width: 450px;
+    height: 20px;
+  }
+  div .foot {
+    height: 10px;
+  }
+  div .foot .text {
+    margin-top: 30px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

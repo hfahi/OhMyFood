@@ -1,0 +1,39 @@
+
+@mixin font1 {
+    font-family: "Devonshire","Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+@mixin font2 {
+    font-family: "Kurale";
+}
+
+@mixin font3 {
+    font-family: "Dancing Script";
+}
+
+@mixin font4 {
+    font-family: "Kaushan script";
+}
+
+@mixin kalam {
+    font-family: "Kalam", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+@mixin vidaloka {
+    font-family: "Vidaloka";
+}
+
+@mixin listmenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 7px #dddddd;
+        margin-bottom: 80px;
+        padding-bottom: 65px;
+        max-width: 518px;
+        padding-left: 10%;
+        padding-right: 10%;
+        min-height: 890px;
+    }
+

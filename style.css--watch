@@ -1,0 +1,145 @@
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #579c87;
+  text-align: center;
+  padding: 2em;
+}
+header img {
+  margin: auto;
+  width: 200px;
+}
+
+/* navigations menus*/
+nav ul {
+  padding: 0;
+  flex-flow: row wrap;
+  display: flex;
+}
+nav li {
+  display: inline-block;
+  margin: auto;
+  margin-top: 32px;
+  width: 200px;
+  height: 282px;
+}
+nav .nav__link__1 {
+  background-color: #fcdfdb;
+  box-shadow: 0 0 7px #dddddd;
+  font-family: "Devonshire", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+nav .nav__link__2 {
+  background-color: #fff5fe;
+  box-shadow: 0 0 7px #dddddd;
+  font-family: "Croissant One";
+}
+nav .nav__link__3 {
+  background-color: #eef0f0;
+  box-shadow: 0 0 7px #dddddd;
+  font-family: "parisienne";
+}
+nav .nav__link__4 {
+  background-color: #fdfffd;
+  box-shadow: 0 0 7px #dddddd;
+  font-family: "Kaushan script";
+}
+nav .bloc-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
+/* pages menus*/
+.menu-1 {
+  background-color: #fcdfdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-2 {
+  background-color: #fff5fe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-3 {
+  background-color: #eef0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-4 {
+  background-color: #fdfffd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* pied page*/
+#prochainement {
+  background: #579c87;
+  color: #fdcb46ff;
+  padding: 10px;
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  text-align: center;
+  font-family: "roboto";
+  width: 200px;
+}
+
+footer {
+  background-color: #579c87;
+}
+
+.foot {
+  font-family: "roboto";
+  display: flex;
+  justify-content: space-around;
+  height: 12vmin;
+}
+.foot .text {
+  color: #fdcb46ff;
+  margin-top: 35px;
+}
+
+/* responsive*/
+@media all and (min-width: 700px) {
+  body {
+    width: auto;
+  }
+
+  img {
+    height: 43px;
+    margin: 32px;
+    margin-left: 55%;
+  }
+
+  .logo {
+    height: 43px;
+  }
+}
+
+/*# sourceMappingURL=style.css--watch.map */

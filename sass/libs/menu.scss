@@ -1,0 +1,18 @@
+@mixin menu_max {
+    box-shadow: 0 0 7px #dddddd;
+    margin:auto;
+}
+
+@mixin bigmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 7px #dddddd;
+    margin-bottom: 80px;
+    padding-bottom: 65px;
+    max-width: 518px;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 890px;
+}
